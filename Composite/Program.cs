@@ -23,3 +23,4 @@ namespace Composite
         }
     }
 }
+// Composite - Ex. 2
