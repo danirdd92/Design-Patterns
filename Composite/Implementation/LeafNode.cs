@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Q2Composite
+namespace Composite.Implementation
 {
     public class LeafNode : NodeComponent
     {
@@ -17,7 +17,7 @@ namespace Q2Composite
 
         public override bool IsEven()
         {
-            if (this.Value % 2 == 0)
+            if (Value % 2 == 0)
             {
                 return true;
             }
